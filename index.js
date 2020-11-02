@@ -10,8 +10,20 @@ function johnLennonFacts(facts)
   while(i < facts.length)
   {
     facts[i] = facts[i] + "!!!";
-    i = i+1;
+    i += 1;
   }
 
   return facts;
+}
+
+function iLoveTheBeatles(num)
+{
+  var meh = [];
+  do while(num < 15)
+  {
+    meh.add("I love the Beatles!");
+    num += 1;
+  }
+
+  return meh;
 }
